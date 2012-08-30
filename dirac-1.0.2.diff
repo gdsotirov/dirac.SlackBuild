@@ -1,0 +1,14 @@
+diff -u -r dirac-1.0.2-orig/doc/Makefile.in dirac-1.0.2/doc/Makefile.in
+--- dirac-1.0.2-orig/doc/Makefile.in	2009-02-11 03:43:37.000000000 +0200
++++ dirac-1.0.2/doc/Makefile.in	2009-04-05 19:58:39.000000000 +0300
+@@ -332,8 +332,8 @@
+ info-am:
+ 
+ install-data-am: install-htmlDATA
+-	@$(NORMAL_INSTALL)
+-	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
++#	@$(NORMAL_INSTALL)
++#	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
+ 
+ install-dvi: install-dvi-am
+ 
